@@ -73,16 +73,26 @@ button, .cta-wrapper {
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 1300px;
     margin: 0 auto;
+    padding: 0 30px;
 }
+/* Basic styles above */
 
+
+
+
+/* Navbar below */
 .nav-ul {
     display: flex;
     align-items: center;
     gap: 17px;
 }
 
+/* Navbar above */
+
+
+/* Header below */
 .header-logo {
     margin-right: auto;
 }
@@ -96,11 +106,18 @@ button, .cta-wrapper {
     background-color: gray;
     text-align: center;
 }
+/* Header above */
+
+
+/* Boxes below */
+
+
+/* Boxes above */
 
 
 
 
-
+/* Quote below */
 
 .quote > * {
     display: flex;
@@ -111,11 +128,45 @@ button, .cta-wrapper {
     align-self: flex-end;
 }
 
+/* Quote above */
+
+
+/* CTA below */
+
+.cta {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.cta-wrapper {
+    border-radius: 6px;
+    padding: 25px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-wrapper > button {
+    padding: 7px 20px;
+    border-radius: 7px;
+    border-color: #fff;
+    color: #fff;
+}
+
+/* CTA above */
 
 
 
+
+
+/* Footer below */
 
 .footer {
     text-align: center;
     padding: 20px;
 }
+
+/* Footer above */
