@@ -119,10 +119,18 @@ button, .cta-wrapper {
 
 /* Quote below */
 
-.quote > * {
+.quote {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.quote .container {
+    max-width: 900px;
     display: flex;
     flex-direction: column;
 }
+
 
 .quote-p {
     align-self: flex-end;
