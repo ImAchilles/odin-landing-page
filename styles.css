@@ -151,10 +151,11 @@ button, .cta-wrapper {
 
 .cta-wrapper {
     border-radius: 6px;
-    padding: 25px 100px;
+    padding: 50px 120px;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 160px;
 }
 
 .cta-wrapper > button {
