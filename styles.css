@@ -152,6 +152,7 @@ button, .cta-wrapper {
 /* Quote below */
 
 .quote {
+    padding: 80px 0;
     display: flex;
     align-items: center;
     flex: 1;
@@ -174,6 +175,7 @@ button, .cta-wrapper {
 /* CTA below */
 
 .cta {
+    padding: 80px 0;
     flex: 1;
     display: flex;
     justify-content: center;
