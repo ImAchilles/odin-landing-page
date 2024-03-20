@@ -118,9 +118,30 @@ button, .cta-wrapper {
 /* Boxes below */
 
 .boxes {
+    padding: 50px 0;
     display: flex;
     align-items: center;
     flex: 1;
+    text-align: center;
+}
+
+.box-container {
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 36px;
+}
+
+.box > img {
+    width: 160px;
+    height: 160px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+
+.box > p {
+    width: 160px;
 }
 
 /* Boxes above */
