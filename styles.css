@@ -73,9 +73,9 @@ button, .cta-wrapper {
 }
 
 .container {
-    max-width: 1600px;
+    /* max-width: 1600px;
+    padding: 0 30px; */
     margin: 0 auto;
-    padding: 0 30px;
 }
 /* Basic styles above */
 
@@ -209,7 +209,7 @@ button, .cta-wrapper {
 
 .footer {
     text-align: center;
-    padding: 20px;
+    padding: 30px;
 }
 
 /* Footer above */
