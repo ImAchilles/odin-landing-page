@@ -89,29 +89,46 @@ button, .cta-wrapper {
     gap: 17px;
 }
 
+.header-logo {
+    margin-right: auto;
+}
+
 /* Navbar above */
 
 
 /* Header below */
 .header {
+    padding: 100px 0;
     display: flex;
     align-items: center;
     flex: 1;
-}
-
-.header-logo {
-    margin-right: auto;
 }
 
 .header > * {
     display: flex;
 }
 
+.header-left {
+    flex: 0 1 470px;
+    margin-right: auto;
+}
+
+.header-left > button {
+    margin-top: 10px;
+    padding: 7px 20px;
+    border-radius: 7px;
+    border-style: none;
+    color: #fff;
+}
 
 .placeholder-img {
-    background-color: gray;
+    flex: 0 1 470px;
+    color: #fff;
+    background-color: #6d747d;
     text-align: center;
+    line-height: 250px;
 }
+
 /* Header above */
 
 
