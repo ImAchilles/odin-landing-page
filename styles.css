@@ -108,13 +108,13 @@ button, .cta-wrapper {
     flex: 1;
 }
 
-.header > * {
+.header .container {
     display: flex;
+    justify-content: space-between;
 }
 
 .header-left {
     flex: 0 1 470px;
-    margin-right: auto;
 }
 
 .header-left > button {
@@ -139,7 +139,7 @@ button, .cta-wrapper {
 /* Boxes below */
 
 .boxes {
-    padding: 50px 0;
+    padding: 50px 0 120px 0;
     display: flex;
     align-items: center;
     flex: 1;
@@ -147,7 +147,7 @@ button, .cta-wrapper {
 }
 
 .box-container {
-    margin-top: 36px;
+    margin-top: 42px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -180,7 +180,7 @@ button, .cta-wrapper {
 }
 
 .quote .container {
-    max-width: 900px;
+    max-width: 830px;
     display: flex;
     flex-direction: column;
 }
@@ -196,21 +196,20 @@ button, .cta-wrapper {
 /* CTA below */
 
 .cta {
-    padding: 80px 0;
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: #fff;
+    flex: 1;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
 }
 
 .cta-wrapper {
+    width: 1100px;
     border-radius: 6px;
     padding: 50px 120px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 160px;
 }
 
 .cta-wrapper > button {
